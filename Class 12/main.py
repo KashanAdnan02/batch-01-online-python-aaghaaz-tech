@@ -46,3 +46,10 @@
 # a = dict.fromkeys(['a', 'b', 'a','a', 'c'], 100)
 
 # print(a)
+
+names = {
+    "name" : "Hamna"
+}
+
+x = names.get("name")
+print(x)
